@@ -19,9 +19,12 @@ $ npm install typed-assign
 const typedAssign = require('typed-assign');
 
 typedAssign({ foo: 1 }, { bar: 1 })
-//=> { foo:1 ,bar: 1 }
+//=> { foo:1, bar: 1 }
 
 typedAssign({ foo: 'hello' }, { foo: 1 })
+// => { foo: 1 }
+
+typedAssign({ foo: 1 }, { foo: 100 })
 // => { foo: 1 }
 
 typedAssign({ foo: [] }, { foo: {} })
