@@ -15,7 +15,11 @@
     "flow": "flow",
     "lint": "eslint .",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage --ci --runInBand",
+    "test:ci": "npm run validate && npm run add:coveralls",
+    "add:coveralls": "cat ./coverage/lcov.info | coveralls",
+    "validate": "npm run lint && npm run flow && npm run test:coverage"
   },
   "lint-staged": {
     "*.js": ["fmt", "lint", "test", "git add"],
@@ -26,6 +30,7 @@
   "dependencies": {},
   "devDependencies": {
     "all-contributors-cli": "^4.5.1",
+    "coveralls": "^3.0.0",
     "eslint": "^4.9.0",
     "eslint-config-precure": "^0.11.1",
     "flow-bin": "^0.57.3",
