@@ -22,7 +22,7 @@
     "validate": "npm run lint && npm run flow && npm run test:coverage"
   },
   "lint-staged": {
-    "*.js": ["fmt", "lint", "test", "git add"],
+    "*.js": ["fmt", "validate", "git add"],
     "*.json": ["fmt", "git add"]
   },
   "files": ["index.js"],

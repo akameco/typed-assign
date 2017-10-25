@@ -11,7 +11,7 @@ function arrayCheck(a, b) {
   return Array.isArray(a) === Array.isArray(b)
 }
 
-module.exports = (target /*: Object */, ...sources /*: Object[] */) => {
+module.exports = (target /*: Object */, ...sources /*: Array<?Object> */) => {
   const to = Object(target)
 
   for (let from of sources) {
