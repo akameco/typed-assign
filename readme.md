@@ -5,7 +5,7 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
-> Object.assingn, Overwrite when TYPE mismatch
+> Object.assign, Overwrite when TYPE mismatch
 
 
 ## Install
