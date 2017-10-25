@@ -33,7 +33,7 @@ typedAssign({ foo: 0 }, { bar: 'hello' }, { bar: 2 })
 
 ## API
 
-### typedAssign(target : Object, ...sources: Object[])
+### `typedAssign(target : Object, ...sources: Object[])`
 Assigns enumerable own properties of `source` objects to the `target` object and returns the `target` object. Additional `source` objects will overwrite previous ones.
 
 ## Contributors
