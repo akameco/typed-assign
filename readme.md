@@ -1,6 +1,6 @@
 # typed-assign
 [![Build Status](https://travis-ci.org/akameco/typed-assign.svg?branch=master)](https://travis-ci.org/akameco/typed-assign)
-[![Coverage Status](https://coveralls.io/repos/github/akameco/babel-plugin-react-intl-auto/badge.svg?branch=master)](https://coveralls.io/github/akameco/babel-plugin-react-intl-auto?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/akameco/typed-assign/badge.svg?branch=master)](https://coveralls.io/github/akameco/typed-assign?branch=master)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
