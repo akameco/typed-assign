@@ -1,6 +1,6 @@
 {
   "name": "typed-assign",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "object assing if type mismatch",
   "license": "MIT",
   "repository": "akameco/typed-assign",
